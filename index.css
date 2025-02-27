@@ -1,0 +1,264 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.back{
+   
+    width: 100%;    
+    height: 50px;
+    background-color: grey;
+    position: fixed;
+    text-align: center;
+    text-shadow: 0 0 20px rgb(85, 249, 9);
+    z-index: 10;
+    .back-tex{
+        color: azure;
+    }
+    .bottom
+    {
+        width: 100%;    
+        height: 50px;
+        background-color: black;
+         bottom: 0;
+        position: fixed;
+        text-align: center;
+        text-shadow: 0 0 20px rgb(85, 249, 9);
+        z-index: 10;
+        .bottom-text{
+            position: relative;
+            top: 15px;
+            text-align: center;
+            color: aliceblue;
+            
+        }
+
+    }
+}
+.one-cats{
+    
+    position: relative;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    height: 300px;
+    background-color:lightgoldenrodyellow ;
+    left: 10px;
+    top: 70px;
+    box-shadow: 0 0 10px black,0 0 20px red,0 0 30px white;
+    .one-cats-ul{
+        position: absolute;
+        top: 20px;
+        left: 30px;
+    }
+    .one-about{
+        position: absolute;
+        border: none;
+        background-color: rgb(12, 186, 202);
+        width: 600px;
+        height: 300px;
+        left: 600px;
+        top: 30px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px black, 0 0 20px #800080, 0 0 30px gold;
+    }
+    .one-text{
+        position: relative;
+        top: 20px;
+        left: 35%;
+        color: gold;
+        text-shadow: 0 0 10px wheat, 0  0 20px black, 0 0  30px red;
+    }
+    .one-img{
+        position: absolute;
+        left: 200px;
+        top: 25%;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        box-shadow: 0 0 10px purple,0 0 20px blue,0 0 30px black;
+        
+        
+    }
+    .red-box-one{
+        position: absolute;
+        border: none;
+        border-radius: 5px;
+        width: 80px;
+        height: 30px;
+        background-color: red;
+        left: 480px;
+        top: 50px;
+
+    }
+    .red-box-one-text{
+        position: absolute;
+        color: aliceblue;
+        top: 5px;
+    }
+    .red-box-one-bottom-text{
+        position: relative;
+        color: aliceblue;
+        left: 30px;
+        top: 230px;
+        text-shadow: 0 0 10px blue;
+
+    }
+    
+}
+.two-cats{
+    position: relative;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    height: 300px;
+    background-color:lightgoldenrodyellow ;
+    left: 10px;
+    top: 120px;
+    box-shadow: 0 0 10px black,0 0 20px red,0 0 30px white;
+    .two-cats-ul{
+        position: absolute;
+        top: 20px;
+        left: 30px;
+    }
+    .two-about{
+        
+            position: absolute;
+            border: none;
+            background-color: rgb(12, 186, 202);
+            width: 600px;
+            height: 300px;
+            left: 600px;
+            top: 30px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px black ,0 0 20px #800080, 0 0 30px gold;
+    
+        
+    }
+    .two-text{
+        position: relative;
+        top: 20px;
+        left: 35%;
+        color: gold;
+        text-shadow: 0 0 10px wheat, 0  0 20px black, 0 0  30px red;
+    }
+    .two-img{
+        position: absolute;
+        left: 200px;
+        top: 25%;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        box-shadow: 0 0 10px purple,0 0 20px blue,0 0 30px black;
+        
+    }
+    .red-box-two{
+        position: absolute;
+        border: none;
+        border-radius: 5px;
+        width: 80px;
+        height: 30px;
+        background-color: red;
+        left: 480px;
+        top: 50px;
+    }
+    .red-box-two-text{
+        position: absolute;
+        color: aliceblue;
+        top: 5px;
+    }
+    .red-box-two-bottom-text{
+        position: relative;
+        color: aliceblue;
+        left: 30px;
+        top: 230px;
+        text-shadow: 0 0 10px blue;
+
+    }
+
+
+}
+.three-cats{
+    position: relative;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    height: 300px;
+    background-color:lightgoldenrodyellow ;
+    left: 10px;
+    top: 200px;
+    bottom: 40px;
+    box-shadow: 0 0 10px black,0 0 20px red,0 0 30px white;
+    .three-cats-ul{
+        position: absolute;
+        top: 20px;
+        left: 30px;
+    }
+    .three-about{
+        
+            position: absolute;
+            border: none;
+            background-color: rgb(12, 186, 202);
+            width: 600px;
+            height: 300px;
+            left: 600px;
+            top: 40px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px black, 0 0 20px #800080, 0 0 30px gold;
+        
+    }
+    .three-text{
+        position: relative;
+        top: 20px;
+        left: 35%;
+        color: gold;
+        text-shadow: 0 0 10px wheat, 0  0 20px black, 0 0  30px red;
+
+
+    }
+    .three-img{
+        position: absolute;
+        left: 200px;
+        top: 25%;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        box-shadow: 0 0 10px purple,0 0 20px blue,0 0 30px black;
+        
+    }
+    .red-box-three{
+        position: absolute;
+        border: none;
+        border-radius: 5px;
+        width: 80px;
+        height: 30px;
+        background-color: red;
+        left: 480px;
+        top: 50px;
+    }
+    .red-box-three-text{
+        position: absolute;
+        color: aliceblue;
+        top: 5px;
+    }
+    .red-box-three-bottom-text{
+        position: relative;
+        color: aliceblue;
+        left: 30px;
+        top: 230px;
+        text-shadow: 0 0 10px blue;
+
+    }
+   
+
+}
+.noneborder{
+    position: absolute;
+    width: 200px;
+    height: 400px;
+    top: 200%;
+    background-color: white;
+    left: 50%;
+}
+
+
